@@ -14,7 +14,7 @@ Crear una máquina virtual con un entorno gráfico. Esta accederá a los sitios 
 El servidor DNS será RAID 0.  
 Los Servidores web ftp serán RAID 5.  
 
-**Configuracion dns: 
+**Configuracion dns:** 
 ~~~ 
 #named.conf.local  
 zone "sitioa.com " {  
@@ -115,7 +115,7 @@ $TTL 38400
 22 IN PTR server03.  
 ~~~
   
-**Configuracion router:  
+**Configuracion router:**  
   
 Editamos el archivo sysctl.conf:  
 ~~~  
