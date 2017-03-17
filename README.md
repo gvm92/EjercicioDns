@@ -125,10 +125,11 @@ Descomentamos la linea:
   
 net.ipv4.ip_forward=1  
   
-creamos un archivo llamado y le añadimos las 2 siguientes lineas:  
+creamos un archivo llamado router.sh  
 ~~~  
 nano router.sh
 ~~~  
+Le añadimos las 2 siguientes lineas:  
 ~~~  
 #!/bin/bash  
 iptables -t nat -A POSTROUTING -o ens33 -j MASQUERADE  
