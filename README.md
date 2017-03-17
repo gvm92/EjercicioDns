@@ -125,7 +125,7 @@ Descomentamos la linea:
 ~~~   
 net.ipv4.ip_forward=1  
 ~~~   
-creamos un archivo llamado router.sh  
+Creamos un archivo llamado router.sh  
 ~~~  
 nano router.sh
 ~~~  
@@ -134,10 +134,10 @@ Le añadimos las 2 siguientes lineas:
 #!/bin/bash  
 iptables -t nat -A POSTROUTING -o ens33 -j MASQUERADE  
 ~~~  
-editamos el archivo /etc/rc.local y le añadimos lo siguiente:  
-  
+editamos el archivo /etc/rc.local y le añadimos lo siguiente delante de Exit 0:  
+~~~   
 sh /home/usuario/router.sh  
-
+~~~ 
 Raid0:  
 ![Raid0](Raid0.png)
   
