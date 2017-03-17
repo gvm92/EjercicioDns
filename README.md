@@ -22,12 +22,12 @@ zone "sitioa.com " {
     file "/etc/bind/rd.sitioa.com ";  
 };  
   
-zone "sitiob.com " {  
+zone "sitiob.net " {  
         type master;  
     file "/etc/bind/rd.sitiob.com ";  
 };  
   
-zone "sitioc.com " {  
+zone "sitioc.net " {  
         type master;  
     file "/etc/bind/rd.sitioc.com ";  
 };  
