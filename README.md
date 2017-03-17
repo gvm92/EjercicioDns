@@ -119,7 +119,7 @@ Configuracion router:
   
 Editamos el archivo sysctl.conf:  
 ~~~  
-/etc/sysctl.conf  
+nano /etc/sysctl.conf  
 ~~~
 Descomentamos la linea:  
   
