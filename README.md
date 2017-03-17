@@ -122,9 +122,9 @@ Editamos el archivo sysctl.conf:
 nano /etc/sysctl.conf  
 ~~~
 Descomentamos la linea:  
-  
+~~~   
 net.ipv4.ip_forward=1  
-  
+~~~   
 creamos un archivo llamado router.sh  
 ~~~  
 nano router.sh
